@@ -1,0 +1,9 @@
+.tile {
+    width: 151px;
+    height: 151px;
+    margin: 2px;
+}
+
+.tile-2x {
+    width: 306px;
+}
