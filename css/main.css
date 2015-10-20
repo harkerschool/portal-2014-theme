@@ -1176,7 +1176,24 @@ div[id^="calGroup_"] input[name="customize_option"],
 .legend-icon-us { background-color: #001aff; }
 .legend-icon-sw { background-color: #fff; }
 
+/* calendar bannner element */
+
+.caldata .eventobj {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.event_stackdate {
+    line-height: 1.2;
+    padding-top: 0.2em;
+}
+
+.event_stackrepeat {
+    height: 0;
+}
+
 /* directory */
+
 .pagetype_directory #contentdiv > div > table td > img {
     max-width: 90px;
 }
