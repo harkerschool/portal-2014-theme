@@ -101,6 +101,11 @@ textarea {
     width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* layout */
 .title-container > div, 
 .header-container > div, 
@@ -559,6 +564,9 @@ textarea {
 a.tile {
     background: none;
     height: auto;
+}
+.tile-outline {
+    border: 1px solid #ccc;
 }
 .tile.is-dragging,
 .tile.is-positioning-post-drag {
