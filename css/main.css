@@ -138,6 +138,10 @@ img {
     margin: 2rem 0;
 }
 
+#text2 {
+    clear: both;
+}
+
 .pagetype_portal #text1 {
     margin: 0;
 }
@@ -1030,6 +1034,49 @@ a.tile {
     margin: 1em 0;
 }
 
+/* athletics schedule page */
+
+#athschedule td {
+    vertical-align: top;
+    text-align: left;
+}
+
+#athschedule td:nth-child(4) {
+    width: 50px;
+}
+
+#athschedule td:last-child {
+    width: 100px;
+}
+
+#athschedule .athdatebar,
+#athschedule .athrowsep {
+    background: #ccc;
+}
+
+#athschedule .athdatebar {
+    color: #333;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+#athschedule .athrowsep {
+    line-height: 0;
+    height: 1px;
+}
+
+.athiconcell {
+    padding-left: 0 !important;
+    width: 20px;
+    vertical-align: top;
+}
+
+.athiconcell img {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
 /* calendar page */
 
 .calendargrid.hasRightbanner #contentdiv, 
@@ -1246,6 +1293,67 @@ div[id^="calGroup_"] input[name="customize_option"],
 .targetForm {
     width: auto !important;
     max-width: 40em;
+}
+
+/* discussion forums */
+.pagetype_blog #contentdiv > .text_misc {
+    overflow: hidden;
+}
+.discussionTopicTable {
+  background: #FFF;
+  border: solid 1px #DDDDDD;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem;
+  table-layout: auto;
+}
+.discussionTopicTable caption {
+  background: transparent;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.discussionTopicTable thead {
+  background: #F5F5F5;
+}
+.discussionTopicTable thead tr th,
+.discussionTopicTable thead tr td,
+.discussionTopicTable .header {
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.discussionTopicTable thead tr th,
+.discussionTopicTable thead tr td {
+  padding: 0.75rem 1rem;
+}
+.discussionTopicTable tfoot {
+  background: #F5F5F5;
+}
+.discussionTopicTable tfoot tr th,
+.discussionTopicTable tfoot tr td {
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: normal;
+  padding: 0.75rem 1rem;
+}
+.discussionTopicTable tr th,
+.discussionTopicTable tr td {
+  color: #555;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+.discussionTopicTable tr.even, .discussionTopicTable tr.alt, .discussionTopicTable tr:nth-of-type(even) {
+  background: #F9F9F9;
+}
+.discussionTopicTable thead tr th,
+.discussionTopicTable tfoot tr th,
+.discussionTopicTable tfoot tr td,
+.discussionTopicTable tbody tr th,
+.discussionTopicTable tbody tr td,
+.discussionTopicTable tr td {
+  display: table-cell;
+  line-height: 1.125rem;
 }
 
 /* ==========================================================================
