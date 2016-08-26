@@ -918,17 +918,14 @@ a.tile {
     margin-top: 1px;
 }
 
-/* hide portal elements */
-.portal_column,
-#portal_tabs {
+/* hide portal elements using Packery plugin css hook */
+.packery .portal_column,
+.packery #portal_tabs {
     display: none;
 }
 
-
-.page_2124 #portal_tabs, .page_2124 .portal_column,
-.page_208 #portal_tabs, .page_208 .portal_column,
-.page_988 #portal_tabs, .page_988 .portal_column,
-.isAdmin #portal_tabs, .isAdmin .portal_column {
+.isAdmin.packery .portal_column,
+.isAdmin.packery #portal_tabs {
     display: block;
 }
 

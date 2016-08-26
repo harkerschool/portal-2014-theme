@@ -20,7 +20,7 @@
             templateURL: '//www.harker.org/uploaded/plugins/awesome-bar/awesome-bar.tpl.html'
         });
 
-        if ( parent.admintab ) {
+        if ( $('#texte1').length > 0 ) {
             $('html').addClass('isAdmin');
         }
 
